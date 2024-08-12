@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:black;
+    --text-color: white;
+    --btn-bg-color: #dfe6c6;
+    --btn-text-color: #000;
+}
+
+[data-theme = 'dark']{
+    --bg-color: #fff;
+    --text-color: #000;
+    --btn-bg-color: #0f1c0f;
+    --btn-text-color: #96e6e6;
+}
+
+
+.container .change-theme-btn{
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* body.light{
+    background-color: black;
+}
+
+body.dark{
+    background-color: white;
+} */
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+/* 
+h1{
+    color: #fff;
+    padding: 10PX;
+}
+
+.container button{
+    padding: 12px 20px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button.black{
+    color: white;
+    border: 2px solid rgb(185, 222, 20);
+    background: linear-gradient(90deg,rgb(151, 9, 127),rgb(62, 192, 199));
+    border-radius: 10px 38px;
+}
+
+button.white{
+    color: black;
+    border: 2px solid green;
+    background: linear-gradient(90deg,rgb(0, 204, 255),rgb(181, 193, 12));
+    border-radius: 38px 12px;
+}
+
+h1.black{
+    color: white;
+    border: 2px solid rgb(185, 222, 20);
+    background: linear-gradient(90deg,rgb(151, 9, 127),rgb(62, 192, 199));
+    border-radius: 12px 38px;
+}
+
+h1.white{
+    color: black;
+    border: 2px solid green;
+    background: linear-gradient(90deg,rgb(0, 204, 255),rgb(181, 193, 12));
+    border-radius: 38px 12px;
+} */

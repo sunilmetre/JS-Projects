@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(220deg, rgb(164, 244, 239), rgb(209, 105, 232));
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.resert-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(90deg, rgb(125, 125, 241),rgb(241, 89, 241));
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.message{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bolder;
+}

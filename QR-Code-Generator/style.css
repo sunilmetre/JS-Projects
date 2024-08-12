@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 25px;
+    text-align: center;
+}
+
+.qr-text{
+    padding: 10px 20px;
+    width: 400px;
+    border: 2px solid red;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.generate-qr-code-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: rgb(226, 69, 215);
+    background: linear-gradient(90deg, rgb(230, 167, 59), rgb(127, 246, 177));
+    cursor: pointer;
+}
+
+.qr-container{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+.error-message-text{
+    margin: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
